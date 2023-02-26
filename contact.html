@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+
+    }
+    .card {
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      max-height: 600px;;
+      text-align: center;
+      font-family: arial;
+      color: black;
+      background-color: white;
+      margin-left: 40%;
+      margin-top: 20%;
+    }
+
+    .head {
+      background-color: #3d3b3b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+
+    }
+    .nav {
+        /* width:fit-content; */
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        
+      }
+      
+      .nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 240px;
+        margin-left: 107px;
+        text-align: center;
+      }
+  </style>
+</head>
+
+<body>
+  <div class="head">
+    <a href="index.html">
+    <img align="left" id="a" src="B.png"alt="Logo" height="70px" width="70px">
+    </a>
+    <h1>Ideabox</h1>
+  </div><div class="nav">
+    <a href="index.html"> Home</a>
+    <a href="Furnitures.html">     Furniture        </a>
+    <a href="profcard.html">      About Us       </a>
+    <a href="#">        Contact Us    </a>
+    <a href="faq.html">FAQ</a>
+  </div>
+  <div class="card" >
+     <img src="alok.png.jpg" alt="ALOK" style="width:10%; margin-top: 0px;width:30%;height: 30%;"><!--PUT your image here -->
+    <h1
+      style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      Alok Prakash</h1>
+    <p class="title"
+      style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      CEO & Founder, Ideabox</p>
+    <p
+      style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      IIIT Kottayam</p>
+    <p id="Contact">Reach me out at ideaboxind@gmail.com</p>
+    <div style="margin: 24px 0;">
+      <a href="https://www.instagram.com/_alokp_/" target="_blank"><i class="instagram">Instagram</i>&nbsp;</a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/speedracer2145" target="blank"><i class="gthub">Github profile</i></a>
+      <a href="https://www.linkedin.com/in/alok-prakash-67b16a20b/" target="_blank"><i
+          class="linkedin">Linkedin</i>&nbsp;</a>
+
+    </div>
+    <p style="background-color: rgb(30, 30, 30);padding:5px;"><button onclick="myfn()" id="Contact"
+        style="height:40%;width:30%;font-size:20px">Contact</button></p>
+    <script>
+      function myfn() {
+        var n = document.getElementById('Contact').innerHTML = "9591754343"
+      }
+    </script>
+  </div>
+</body>
+
+</html>
